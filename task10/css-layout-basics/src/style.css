@@ -1,0 +1,60 @@
+body {
+    box-sizing: border-box;
+}
+
+main {
+    float: left;
+    box-sizing: inherit;
+    width: 70%;
+}
+
+aside {
+    position: relative;
+    width: 30%;
+    float: right;
+    height: 150vh;
+}
+
+header {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+.info {
+    overflow: auto;
+    height: 460px;
+}
+
+form {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.header_line {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.client_stories {
+    column-count: 3;
+    column-gap: 20px;
+    margin: var(--space-size);
+    
+}
+
+.features {
+    column-count: 2;
+    column-gap: 0;
+    background: var(--primary-color);
+    padding-top: var(--space-size);
+}
+
+h2 {
+    column-span: all;
+}
